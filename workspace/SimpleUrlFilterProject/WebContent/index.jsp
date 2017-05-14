@@ -7,17 +7,17 @@
 </head>
 <body>
     <form action="UrlFilterServlet" method="get">
-        Url: <input type="text" size="100" name="Url"/>
+        Enter Url (do not include "http://"): <input type="text" size="100" name="Url" />
         &nbsp;&nbsp;
-        <input type="submit" value="UrlFilterServlet" />
+        <input type="submit" value="Navigate using get" />
     </form>
    
     <br/><br/>
      
     <form action="UrlFilterServlet" method="post">
-        Url: <input type="text" size="100" name="Url"/>
+        Enter Url (do not include "http://"): <input type="text" size="100" name="Url"/>
         &nbsp;&nbsp;
-        <input type="submit" value="Use post()" />
+        <input type="submit" value="Navigate using post" />
     </form>
 </body>
 </html>
